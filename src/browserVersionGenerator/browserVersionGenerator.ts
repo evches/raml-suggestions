@@ -61,7 +61,7 @@ function webPackForBrowser(parserRootFolder: string, rootFile : string, targetFi
         },
         externals: [
             {
-                "raml-1-parser": "RAML.Parser"
+                "@evches/raml-1-parser": "RAML.Parser"
             }
         ],
         node: {

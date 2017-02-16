@@ -1,7 +1,7 @@
 /// <reference path="../typings/main.d.ts" />
 declare function require(s:string):any;
 
-import parserApi = require("raml-1-parser");
+import parserApi = require("@evches/raml-1-parser");
 
 import def = parserApi.ds;
 import search= parserApi.search;
